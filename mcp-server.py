@@ -17,3 +17,12 @@ async def weather():
 
     return data
 
+
+#--------------------asynce function return statement code ----------------
+
+import asyncio
+async def weather():
+    print("Start")
+    return "Ahmedabad"
+
+asyncio.run(weather())
