@@ -26,3 +26,9 @@ async def weather():
     return "Ahmedabad"
 
 asyncio.run(weather())
+
+
+
+# today i learn eventloop
+loop = EventLoop()
+
